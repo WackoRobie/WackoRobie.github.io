@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Recent Content on Robinsoncentral </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://wackorobie.github.io/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 30 Nov 2014 21:13:15 CST</updated>
+    
+    <item>
+      <title>Initial Test Entry</title>
+      <link>http://wackorobie.github.io/initial/</link>
+      <pubDate>Sun, 30 Nov 2014 21:13:15 CST</pubDate>
+      
+      <guid>http://wackorobie.github.io/initial/</guid>
+      <description>&lt;p&gt;In an attempt to get back to blogging and documenting my current learning trends, I thought it was time to fire up a new blog. So it follows that the new site should be something that I can poke and play with programming and my learning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
