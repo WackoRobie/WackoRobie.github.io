@@ -1,83 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Robinsoncentral</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <link href="http://wackorobie.github.io/index.xml/" rel="alternate" type="application/rss+xml" title="Robinsoncentral" />
-  <link href="http://wackorobie.github.io/css/bootstrap.min.css" rel="stylesheet">
-  <link href="http://wackorobie.github.io/css/hc.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+
+    <title>Robinson central &middot; Robinson central</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     
-    </head>
-    <body>
-<div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-      <div id = "wrapper">
+    
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    
 
+    
+    
+        <link rel="stylesheet" href="/css/blog.css">
+    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
 
-<div class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <p class="navbar-brand">Robinsoncentral</p>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-          <li><a href="http://wackorobie.github.io/post/">Posts</a></li>
-          <li><a href="http://wackorobie.github.io/about/">About</a></li>
-          </ul>
-        </div>
-      </div>
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://wackorobie.github.io">Robinson central</a></h1>
+            <h2 class="brand-tagline"> Networking, Cycling, and Learning </h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="pure-button" href="http://twitter.com/WackoRobie"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="pure-button" href="http://github.com/WackoRobie "><i class="fa fa-github-alt"></i> github</a>
+                </li>
+               
+            </ul>
+        </nav>
     </div>
+</div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                
+                <h1 class="content-subhead">30 Nov 2014, 21:13</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://wackorobie.github.io/initial/" class="post-title">Hello World!</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>In an attempt to get back to blogging and documenting my current learning trends, I thought it was time to fire up a new blog. So it follows that the new site should be something that I can poke and play with programming while building as that is my latest distraction/hobby.</p>
+
+<p>So the decision was to start with something simple like Hugo hosted on Github Pages. Allows me to work more with Git, YAML, and Go. While not spending much time stressing on the hosting platform. As I work toward more development with Python, I might start looking at alternatives like Django as it is in Python and helps with database frameworks.</p>
+
+<p>If you intend on following along I would expect to find the site broken as often as not, but will do my best to keep it up and working.</p>
+
+                    </div>
+                </section>
+                
+            </div>
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
 
 
-
-       
-       <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href="http://wackorobie.github.io/"><h1 class="brand">Robinsoncentral</h1></a><h3></h3></li>
-          <hr />
-          <li><a href="http://wackorobie.github.io/post/">Posts</a></li>
-          <li><a href="http://wackorobie.github.io/about/">About</a></li>
-          <hr />
-          <div id="social-wrapper">
-           
-           
-           
-           
-         </div>
-       </ul>
-     </div>
-
-
-
-     <div class="container">
-
-
-  <div id="article">
-      <h1>Robinsoncentral</h1>
-  <ul class="posts">
-      
-      <li><span><a href="http://wackorobie.github.io/initial/">Initial Test Entry</a><time class="pull-right post-list">Sun, Nov 30, 2014</h4></time></span></span></li>
-      
-  </ul>
-    <footer>
-
-        <p class="text-muted credit">&copy; . All rights reserved. </p>
-    </footer>
- 
-    <script src="/js/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/js/hc.js"></script>
 </body>
-
 </html>
-
